@@ -106,7 +106,9 @@
   }
   .img-ausp img{
     padding: 0 15px;
-
+  }
+  .video-event{
+    height: 250px;
   }
 }
 
