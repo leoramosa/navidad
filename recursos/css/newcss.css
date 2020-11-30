@@ -1,0 +1,120 @@
+.content-event{
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  background: url(../images/luces.png) no-repeat center;
+  background-position: top;
+  background-size: contain;
+}
+
+
+.fa-snowflake{
+  animation: fall 7s linear forwards;
+  color: white;
+  position: absolute;
+  top:-20px;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(250vh);
+  }
+}
+
+
+.img-event-title{
+  padding: 55px 0 40px 0;
+}
+
+.img-event-artist{
+  padding: 25px 0 40px 0;
+}
+
+
+.img-event-two{
+  margin-top: -10px;
+}
+
+.img-rotate{
+  animation-name: rotarbola;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+}
+
+@keyframes rotarbola{
+  0%{
+    transform: rotate(2deg);
+  }
+  50%{
+    transform: rotate(-2deg);
+  }
+  100%{
+    transform: rotate(2deg);
+  }
+}
+
+
+/* style time */
+
+.countdown-container {
+	display: flex;
+}
+
+.time {
+	display: flex;
+	font-size: 1.2em;
+	flex-direction: column;
+	margin: 0 15px;
+}
+
+.time h1 {
+	margin-bottom: 0;
+}
+
+.time small {
+	color: #ccc;
+}
+
+
+.content-img-auspi{
+  margin: auto;
+  text-align: center;
+}
+
+.img-ausp{
+  padding-bottom: 35px;
+}
+.content_event-mobile{
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  background: url(../images/luces.png) no-repeat center;
+  background-position: top;
+  background-size: cover;
+}
+
+.img-ausp img{
+  padding: 0 25px;
+
+}
+
+/* style time */
+@media only screen and (max-width:576px) {
+  .content-event{
+    display: none;
+  }
+  .img-ausp img{
+    padding: 0 15px;
+
+  }
+}
+
+
+
+@media only screen and (min-width:576px) {
+  .content_event-mobile{
+    
+    display: none;
+  }
+}

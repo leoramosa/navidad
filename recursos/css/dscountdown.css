@@ -1,0 +1,397 @@
+/* style time */
+
+.title-desc{
+	font-size: 28px;
+	font-weight: 700;
+	text-align: center;
+	color: red;
+  }
+  
+  .time{
+	display:grid;
+	color: #20152a;
+	padding-top: 20px;
+  }
+  
+  .days_ref, .hour_ref, .hours_ref, .minutes_ref, .seconds_ref {
+	text-align: center;
+    margin: 8px 0 0 0;
+    font-size: 2vh;
+  }
+  
+  ul.countdown {
+	list-style: none;
+	margin: 15px auto;
+	padding: 0;
+	display: inline-flex;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+  }
+  
+  ul.countdown li {
+	display: block;
+    /* line-height: 38px; */
+    color: #e3f1f5;
+    margin: 5px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+}
+  
+  ul.countdown li span:before {
+	content: "";
+	background-color: #cae0e6;
+	display: block;
+	width: 5px;
+	height: 43px;
+	left: 0;
+	z-index: 99;
+	position: absolute;
+	top: 32%;
+  }
+  ul.countdown li span:after {
+	content: "";
+	background-color: #cae0e6;
+	display: block;
+	width: 5px;
+	height: 43px;
+	right: 0;
+	z-index: 99;
+	position: absolute;
+	top: 32%;
+  }
+  
+  ul.countdown li span {
+    font-size: 9vh;
+    font-weight: 300;
+    color: #e45b74;
+    font-family: 'Bebas Neue', cursive;
+    background: #e3f1f5;
+    padding: 17px 17px 8px 17px;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .linia{
+	display: block;
+	position: absolute;
+	top: 14%;
+	width: 100%;
+	height: 3px;
+	background: #494650;
+	z-index: 999;
+  }
+  
+  ul.countdown li.seperator {
+	font-size: 9vh;
+	vertical-align: top;
+	padding-left: 25px;
+	padding-right: 25px;
+	background: none;
+	border: none;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: 'Bebas Neue', cursive;
+  }
+  
+  
+  ul.countdown li p {
+    color: #ffffff;
+    font-weight: 500;
+  }
+  
+  .time {
+    display: grid;
+    color: #20152a;
+    padding-top: 0;
+  }
+  
+  .contad{
+	padding: 56px 0 25px;
+	border-top: 1px #b5aa6e dashed;
+  }
+
+  .logo-art{
+	padding-right: 45px;
+  }
+  
+
+
+
+
+
+  /**/
+
+
+
+  /**/
+
+  
+@media only screen and (max-width:1367px) {
+  
+}
+
+
+@media only screen and (max-width:1200px) {
+
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+
+@media only screen and (max-width: 914px) {
+	ul.countdown li span {
+		font-size: 6vh;
+		padding: 12px 12px 5px;
+	}
+	.days_ref, .hour_ref, .hours_ref, .minutes_ref, .seconds_ref {
+    text-align: center;
+    margin: 8px 0 0 0;
+    font-size: 1.5vh;
+}
+}
+
+
+@media only screen and (max-width:800px) {
+
+}
+
+@media only screen and (max-width:768px) {
+
+	  /*contador*/
+
+ul.countdown li span {
+	font-weight: 300;
+    font-family: 'Bebas Neue', cursive;
+    padding: 12px 12px 5px;
+    position: relative;
+  }
+  
+  ul.countdown li.seperator {
+	vertical-align: top;
+	padding-left: 25px;
+	padding-right: 25px;
+	background: none;
+	border: none;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: 'Bebas Neue', cursive;
+	margin: 0;
+  }
+  
+  .days_ref, .hour_ref, .hours_ref, .minutes_ref, .seconds_ref {
+	text-align: center;
+	/* font-weight: 700; */
+  }
+  
+  ul.countdown li {
+	display: block;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	position: relative;
+  }
+  .time{
+	  padding-right: 0;
+  }
+
+  .logo-art{
+	padding-right: 0;
+  }
+  
+}
+
+@media only screen and (max-width:575px) {
+
+	/*contador*/
+
+ul.countdown li span {
+	  font-weight: 300;
+	  letter-spacing: 0;
+  }
+  
+  ul.countdown li.seperator {
+	vertical-align: top;
+	padding-left: 25px;
+	padding-right: 25px;
+	background: none;
+	border: none;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin: 0;
+  }
+  
+  .days_ref, .hour_ref, .hours_ref, .minutes_ref, .seconds_ref {
+	text-align: center;
+  }
+  
+  ul.countdown li {
+	display: block;
+	margin: 0;
+	text-transform: uppercase;
+	position: relative;
+  }
+  
+  
+
+}
+
+@media only screen and (max-width:480px) {
+
+	/*contador*/
+
+	ul.countdown li span {
+		font-size: 6vh;
+		font-family: 'Bebas Neue', cursive;
+		letter-spacing: 0;
+		position: relative;
+	}
+	  
+	  ul.countdown li.seperator {
+		vertical-align: top;
+		padding-left: 25px;
+		padding-right: 25px;
+		background: none;
+		border: none;
+		padding-right: 5px;
+		padding-left: 5px;
+		font-family: 'Bebas Neue', cursive;
+		margin: 0;
+		font-size: 6vh;
+	  }
+	  
+	  .days_ref, .hour_ref, .hours_ref, .minutes_ref, .seconds_ref {
+		text-align: center;
+		font-size: 1.5vh;
+	}
+	  
+	  ul.countdown li {
+	  display: block;
+	  margin: 0;
+	  font-family: 'Montserrat', sans-serif;
+	  text-transform: uppercase;
+	  position: relative;
+	  }
+	  
+	  ul.countdown li span:before {
+	  content: "";
+	  display: none;
+	  width: 5px;
+	  height: 43px;
+	  left: 0;
+	  z-index: 99;
+	  position: absolute;
+	  }
+	  ul.countdown li span:after {
+	  content: "";
+	  display: none;
+	  width: 5px;
+	  height: 43px;
+	  right: 0;
+	  z-index: 99;
+	  position: absolute;
+	  top: 38%;
+	  }
+
+	  /*termina contador*/
+
+	  .botones h1 {
+		font-family: 'Oswald', sans-serif;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		font-weight: 500;
+		padding-bottom: 10px;
+		color: #676767;
+	}
+
+	.fondo_txt {
+		background: url(../img/background_header.jpg) center top;
+		background-size: cover;
+		padding-top: 20px;
+		padding-bottom: 25px;
+	}
+  
+
+}
+
+
+
+
+@media only screen and (max-width:412px) {
+	ul.countdown li span {
+    padding: 10px 8px 2px;
+    font-size: 5vh;
+	}
+	ul.countdown li p {
+		font-size: 9px;
+		padding-top: 5px;
+}
+}
+
+@media only screen and (max-width:320px) {
+
+	 /*contador*/
+
+	 ul.countdown li span {
+		font-family: 'Bebas Neue', cursive;
+		padding: 10px 6px 2px;
+		letter-spacing: 0;
+		position: relative;
+		font-size: 5vh;
+	}
+	
+	ul.countdown li.seperator {
+	  vertical-align: top;
+	  padding-left: 25px;
+	  padding-right: 25px;
+	  background: none;
+	  border: none;
+	  padding-right: 5px;
+	  padding-left: 5px;
+	  font-family: 'Bebas Neue', cursive;
+	  margin: 0;
+	}
+	
+	.days_ref, .hour_ref, .hours_ref, .minutes_ref, .seconds_ref {
+		text-align: center;
+		margin: 0;
+		font-size: 8px;
+		line-height: 20px;
+	}
+	
+	ul.countdown li {
+	  display: block;
+	  line-height: 38px;
+	  margin: 0;
+	  font-family: 'Montserrat', sans-serif;
+	  text-transform: uppercase;
+	  position: relative;
+	}
+	
+	ul.countdown li span:before {
+	  content: "";
+	  display: none;
+	  width: 5px;
+	  height: 43px;
+	  left: 0;
+	  z-index: 99;
+	  position: absolute;
+	}
+	ul.countdown li span:after {
+	  content: "";
+	  display: none;
+	  width: 5px;
+	  height: 43px;
+	  right: 0;
+	  z-index: 99;
+	  position: absolute;
+	  top: 38%;
+	}
+	
+
+}
+  
