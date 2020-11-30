@@ -359,7 +359,10 @@
             </button>
           </div>
           <div class="modal-body" style="padding: 1px;"> 
-            <iframe class="videito"
+            <iframe
+            style=""
+            width="100%"
+            height="315"
             src="https://www.youtube.com/embed/_TRH5c3IdPY?enablejsapi=1&rel=0"
             frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -402,17 +405,18 @@
         </div>
       </div>
     </div>
+  
+  <script type="text/javascript">
+      $('.modal.stop-video-on-close').on('hidden.bs.modal', function(e) {
+      $('.video-to-stop', this).each(function() {
+        this.contentWindow.postMessage('{"event":"command","func":"stopVideo","args":""}', '*');
+      });
+    });
+  </script>
 
-
-<!--modal-->
+  <!--modal-->
 <script type="text/javascript" src="recursos/js/animatesnow.js"></script>
-<script type="text/javascript">
-  $('.modal.stop-video-on-close').on('hidden.bs.modal', function(e) {
-  $('.video-to-stop', this).each(function() {
-    this.contentWindow.postMessage('{"event":"command","func":"stopVideo","args":""}', '*');
-  });
-});
-</script>
+
 
 <!--contador-->
 <script type="text/javascript" src="recursos/js/jquery.downCount.js"></script>
@@ -422,8 +426,6 @@
       offset: -5
     });
   </script>
-  
-
 
   </body>
 </html>
