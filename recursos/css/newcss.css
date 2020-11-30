@@ -100,6 +100,29 @@
 }
 
 /* style time */
+@media only screen and (max-width:1920px) {
+  .video-event{
+    height: 450px;
+  }
+}
+@media only screen and (max-width:1500px) {
+  .video-event{
+    height: 380px;
+  }
+}
+
+@media only screen and (max-width: 1200px){
+  .col-video-event { 
+    max-width: 80% !important;
+  }
+}
+
+@media only screen and (max-width: 1024px){
+  .col-video-event { 
+    max-width: 100% !important;
+  }
+}
+
 @media only screen and (max-width:576px) {
   .content-event{
     display: none;
