@@ -6,7 +6,7 @@ $(document).ready(function () {
 	cambio();
 	
 	function cambio(){
-		if ($(window).width() >= 576) {
+		if ($(window).width() > 576) {
 			function createSnowFlake() {
 				const snow_flake = document.createElement('i');
 				snow_flake.classList.add('fas');
