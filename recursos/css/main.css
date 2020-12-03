@@ -4635,7 +4635,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
 }
 @media only screen and (max-width: 576px) {
   .table-price-event .price, .place-name{
-    font-size: 25px;
+    font-size: 22px;
   }
 
   .scheme-mark .place-name {
