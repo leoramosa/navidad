@@ -37,6 +37,14 @@ url('../fonts/icomoon.svg?9gpv9#icomoon') format('svg');
   list-style: none;
 }
 
+.table-price-event{
+  margin: auto;
+}
+
+.table-price-event tbody{
+  border: 2px solid white !important;
+}
+
 .espacio_30{
   margin-top: 30px;
   margin-bottom: 30px;
@@ -4626,6 +4634,17 @@ body > .jcf-select-drop.jcf-drop-flipped {
   
 }
 @media only screen and (max-width: 576px) {
+  .table-price-event .price, .place-name{
+    font-size: 25px;
+  }
+
+  .scheme-mark .place-name {
+    font-size: 25px;
+}
+.badge.badge-canary {
+  margin-top: 5px;
+}
+
   .subscribe-form {
     padding-bottom: 20px;
   }
