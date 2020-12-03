@@ -1014,7 +1014,7 @@ table td {
   padding: 0;
   position: absolute;
   left: 0;
-  top: 2px;
+  top: 10px;
 }
 
 .scheme-mark .place-name {
@@ -3739,7 +3739,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
   .scheme-mark .badge {
     min-width: 16px;
     min-height: 16px;
-    top: 4px;
+    top: 10px;
   }
 
   .scheme-mark .place-name {
